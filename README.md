@@ -4,7 +4,7 @@ Make every debugging way that is possible, easy to use!
 
 This project should also serve as a stark reminder of the complexity of kubernetes security mechanism, because this tool will use every method to reach it's goal even if it's a results of missunderstood or hard to use kubernetes security configs.
 
-And will hopefully one day provided via a simple install with [kubectl plugin manager](https://krew.sigs.k8s.io/) 
+And will hopefully one day provided via a simple install with [krew - kubectl plugin manager](https://krew.sigs.k8s.io/) 
 
 ## GOALs
 
@@ -12,7 +12,7 @@ working tooling for debgging container in k8s in environments that don't have an
 
 1. working `kubectl cp` without `tar` inside container
 2. working `kubectl debug` that injects intself INTO the running container (thus all processes and all files and PVs are there)
-3. Having a simple editor like `vi` ready to just change some config files on a PV
+3. Having a simple editor like `vi` ready to just change some config files on an in use PV
 
 ## TODOs
 
